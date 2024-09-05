@@ -4,7 +4,7 @@ const appId = "650395";
 const formElement = document.querySelector("form");
 const searchElement = document.getElementById("Search-input");
 const searchResults = document.querySelector(".search-results ");
-const showMore = document.getElementById("Show-more-btn ");
+const showMore = document.querySelector("#Show-more-btn");
 
 let inputData = "";
 let page = 1;
